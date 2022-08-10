@@ -96,7 +96,7 @@ div.img:hover::after{
     background-size: 60px 60px;
 }
 div.background{
-    background-color: rgba(231, 230, 230, .3);
+    background-color: rgba(231, 230, 230, .9);
     content: "";
     position: fixed;
     z-index:100;
@@ -121,7 +121,7 @@ div.background.active{
     
 }
 #mainImg{
-    max-width: 70vh;
+    max-width: 70vw;
     max-height: 80vh;
     box-shadow: 3px 5px 10px   rgba(10, 10, 10, .3);
     
