@@ -130,3 +130,17 @@ div.background.active{
 
 
 }
+@media only screen and (max-width: 728px){ 
+    .container{
+        width: 100%;
+        }
+    section{
+        width: 90%;
+    }
+    div.img::before{
+        background-color: whitesmoke;
+        outline: 1px solid black;
+        opacity: .3;
+    }
+    
+}
